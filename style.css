@@ -32,7 +32,8 @@ nav{
     padding-top:60px ;
 }
 section{
-    padding: 115px;
+    padding:115px 115px 70px 115px;
+
 }
 .journey{
     display: flex;
@@ -124,5 +125,50 @@ border-radius: 5px;
     padding: 0px 0px 10px 15px;
     line-height: 20px;
     color: #787885;
+
+}
+.arrow{
+    color: #E02C6D;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    padding-bottom: 15px;
+    
+}
+/*------------------------
+feature details section
+--------------------------*/
+.feature-products{
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail img{
+
+}
+.title{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.feature-details{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c6c6c;
+    width: 80%;
+}
+.feature-des{
+    margin-top: 30px;
+}
+footer{
+    background-color:#0a0826 ;
+    height: 239px;
+width: 1440px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white ;
+gap: 15px;
+
 
 }
