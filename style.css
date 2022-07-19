@@ -80,3 +80,49 @@ border-bottom: 2px solid grey;
 margin-bottom:20px ;
 
 }
+/*------------
+second section
+--------------*/
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.card-style{
+    height: 476px;
+width: 329px;
+background-color: whitesmoke;
+box-shadow: -5px -5px 5px  rgba(196, 193, 193, 0.753);
+
+}
+.card img{
+margin: 15px;
+border-radius: 5px;
+
+}
+.card-title{
+    font-size:28px ;
+    padding: 0px 0  10px 15px;
+}
+.price{
+    font-size:24px ;
+    padding: 0px 0px 10px 15px;
+}
+.star{
+    color: gold;
+}
+.half{
+    margin-right: 15px;
+    
+}
+.rating{
+    font-size:14px ;
+    padding: 0px 0px 10px 15px;
+}
+.delivery-info{
+    font-size: 14px;
+    padding: 0px 0px 10px 15px;
+    line-height: 20px;
+    color: #787885;
+
+}
