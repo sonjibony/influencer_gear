@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style: none;
+    font-size:20px;
+    margin-left: 15px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+    
+
+}
+ul{
+    display: flex;
+
+    
+}
+.nav-title{
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 115px;
+    padding-left:115px ;
+    padding-top:60px ;
+}
+section{
+    padding: 115px;
+}
+.journey{
+    display: flex;
+
+}
+.journey-info{
+    width: 80%;
+    margin-top: 30px;
+}
+.journey-title{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+#details{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px;
+    background-color:#E02C6D;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+/*----------
+    logos
+----------*/
+.all-logos{
+    display: flex;
+    
+    height: 110px;
+width: 1110px;
+justify-content: center;
+align-items: center;
+gap: 45px;
+margin: 0 auto;
+border-top: 2px solid grey;
+border-bottom: 2px solid grey;
+margin-bottom:20px ;
+
+}
